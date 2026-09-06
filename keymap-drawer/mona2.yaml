@@ -33,13 +33,13 @@ layers:
   - M
   - ','
   - .
-  - _
+  - INTERNATIONAL 1
   - LCTRL
   - LEFT WIN
   - LEFT ALT
   - LANG2
   - {t: SPACE, h: '2'}
-  - {t: '&to_layer_0 LANGUAGE_3', h: '3'}
+  - {t: '&to_layer_0 LANGUAGE_1', h: '3'}
   - BACKSPACE
   - {t: RET, h: '1'}
   - LEFT ALT
