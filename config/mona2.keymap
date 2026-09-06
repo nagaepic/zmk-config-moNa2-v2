@@ -129,7 +129,7 @@
 
         layer_3 {
             bindings = <
-&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                           &kp KP_NUMBER_7  &kp KP_N8        &kp KP_N9        &trans  &kp KP_EQUAL
+&kp N1  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                           &kp KP_NUMBER_7  &kp KP_N8        &kp KP_N9        &trans  &kp KP_EQUAL
 &trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &kp KP_PLUS   &kp KP_NUMBER_4  &kp KP_N5        &kp KP_NUMBER_6  &trans  &trans
 &trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &kp KP_MINUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_N3        &trans  &trans
 &trans  &trans              &trans                  &trans                   &trans                   &trans    &kp KP_DOT    &kp KP_NUMBER_0                                            &trans
