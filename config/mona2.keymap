@@ -40,14 +40,14 @@
             key-positions = <0 1>;
         };
 
-        ctrl+shift {
-            bindings = <&kp LS(LCTRL)>;
-            key-positions = <33 22>;
-        };
-
         under {
             bindings = <&kp INT1>;
             key-positions = <32 31>;
+        };
+
+        haihun {
+            bindings = <&kp EQUAL>;
+            key-positions = <9 8>;
         };
     };
 
@@ -84,6 +84,15 @@
             bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
 
             tap-ms = <20>;
+        };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <20>;
+            label = "NEW_BEHAVIOR";
         };
     };
 
