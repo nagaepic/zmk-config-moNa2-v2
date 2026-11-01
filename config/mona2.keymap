@@ -45,14 +45,9 @@
             key-positions = <33 22>;
         };
 
-        asuta {
-            bindings = <&kp KP_MULTIPLY>;
-            key-positions = <15 16>;
-        };
-
-        slash {
-            bindings = <&kp KP_DIVIDE>;
-            key-positions = <27 28>;
+        under {
+            bindings = <&kp INT1>;
+            key-positions = <32 31>;
         };
     };
 
@@ -98,8 +93,8 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R      &kp T                                                      &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G                                       &kp SEMI       &kp H      &kp J  &kp K      &kp L    &kp SLASH
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &lt 5 LG(D)                    &kp COLON      &kp N      &kp M  &kp COMMA  &kp DOT  &kp INTERNATIONAL_1
+&kp A             &kp S         &kp D         &kp F      &kp G                                       &kp SEMI       &kp H      &kp J  &kp K      &kp L    &kp AT_SIGN
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &lt (5) LG(D)                  &kp COLON      &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1    &kp BACKSPACE  &lt 1 RET                             &kp LEFT_ALT
             >;
 
