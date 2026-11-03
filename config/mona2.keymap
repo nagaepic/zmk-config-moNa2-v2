@@ -46,7 +46,7 @@
         };
 
         haihun {
-            bindings = <&kp KP_MINUS>;
+            bindings = <&kp EQUAL>;
             key-positions = <9 8>;
         };
 
@@ -121,7 +121,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                   &kp T                                                      &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G                                       &kp UP         &kp H      &kp J  &kp K      &kp L    &kp AT_SIGN
+&kp A             &kp S         &kp D         &kp F                   &kp G                                       &kp UP         &kp H      &kp J  &kp K      &kp L    &kp LBKT
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &lt (5) LG(D)                  &kp DOWN       &kp N      &kp M  &kp COMMA  &kp DOT  &mt RSHFT FSLH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 LANG2  &lt 6 SPACE  &lt_to_layer_0 3 LANGUAGE_1    &kp BACKSPACE  &lt 1 RET                             &kp LEFT_ALT
             >;
@@ -153,9 +153,9 @@
 
         layer_3 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp KP_NUMLOCK   &kp KP_N7        &kp KP_N8        &kp KP_NUMBER_9  &kp LS(N7)
-&kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0            &kp KP_PLUS   &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_N5        &kp KP_NUMBER_6  &kp SEMI
-&trans        &trans        &trans        &trans        &trans        &trans    &kp KP_MINUS  &kp KP_SLASH     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_N3        &kp SQT
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp KP_NUMLOCK   &kp KP_N7        &kp KP_N8        &kp KP_NUMBER_9  &kp LS(N6)
+&kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0            &kp KP_PLUS   &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_N5        &kp KP_NUMBER_6  &kp SQT
+&trans        &trans        &trans        &trans        &trans        &trans    &kp KP_MINUS  &kp KP_SLASH     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_N3        &kp SEMI
 &trans        &trans        &trans        &trans        &trans        &trans    &kp KP_DOT    &kp KP_NUMBER_0                                                     &kp COMMA
             >;
 
