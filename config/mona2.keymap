@@ -49,6 +49,11 @@
             bindings = <&kp KP_MINUS>;
             key-positions = <9 8>;
         };
+
+        ctrlshift {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <33 34>;
+        };
     };
 
     macros {
