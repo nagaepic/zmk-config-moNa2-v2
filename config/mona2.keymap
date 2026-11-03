@@ -46,7 +46,7 @@
         };
 
         haihun {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp KP_MINUS>;
             key-positions = <9 8>;
         };
     };
